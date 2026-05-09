@@ -1,0 +1,38 @@
+{
+  "name": "@ambicuity/create-express-setup",
+  "version": "1.0.0",
+  "description": "A robust, developer-first CLI tool for scaffolding production-ready Express.js applications — just like create-react-app but for your Node.js backend.",
+  "author": "Ritesh Rana <contact@riteshrana.engineer>",
+  "license": "MIT",
+  "bin": {
+    "create-express-setup": "./bin/cli.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "express",
+    "cli",
+    "scaffold",
+    "backend",
+    "nodejs",
+    "create-express",
+    "express-generator",
+    "express-setup"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riteshrana/create-express-setup"
+  },
+  "bugs": {
+    "url": "https://github.com/riteshrana/create-express-setup/issues"
+  },
+  "homepage": "https://github.com/riteshrana/create-express-setup#readme",
+  "dependencies": {
+    "@clack/prompts": "^0.9.1",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "execa": "^8.0.0"
+  }
+}
